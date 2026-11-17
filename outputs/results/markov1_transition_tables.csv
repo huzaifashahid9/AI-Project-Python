@@ -1,0 +1,10 @@
+,,Rock,Paper,Scissors
+Biased,Rock,0.5472,0.2453,0.2075
+Biased,Paper,0.4915,0.3051,0.2034
+Biased,Scissors,0.4419,0.3256,0.2326
+Cyclic,Rock,0.0735,0.8676,0.0588
+Cyclic,Paper,0.0725,0.0725,0.8551
+Cyclic,Scissors,0.8169,0.0704,0.1127
+WSLS,Rock,0.3571,0.3143,0.3286
+WSLS,Paper,0.3286,0.3857,0.2857
+WSLS,Scissors,0.3088,0.3235,0.3676

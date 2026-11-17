@@ -1,0 +1,4 @@
+Seed 42, 200 rounds vs Switching bot
+HMM win rate in this game: 0.715
+Hidden strategy identified by filtered belief: 0.930
+Hidden strategy identified by raw 10-round signal: 0.885
