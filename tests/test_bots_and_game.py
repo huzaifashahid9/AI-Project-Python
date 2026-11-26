@@ -1,5 +1,3 @@
-"""Tests for the bots, the game engine and reproducibility."""
-
 import numpy as np
 import pytest
 
@@ -79,7 +77,6 @@ def test_rolling_win_rate_window():
 
 @pytest.mark.parametrize("name", BOT_NAMES)
 def test_markov_beats_chance_or_ties_it(name):
-    """No predictor should be crushed by a bot except where the report explains it."""
     rate = np.mean([play_match("Markov-1J", name, seed=s, n_rounds=200).win_rate for s in range(5)])
     assert rate > 0.28
 
