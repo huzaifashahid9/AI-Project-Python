@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors Mind Reader
+# Rock-Paper-Scissors Mind Reader (Project) 
 
 People are poor random-number generators, so their next Rock-Paper-Scissors move usually depends on the moves before it. This project builds a learning, model-based agent for the AL-2002 AI Lab (Fall 2026, FAST-NUCES Karachi, Idea 08). The agent watches its opponent's moves, models them with a **frequency model**, **order-1 and order-2 Markov chains** and a **Hidden Markov Model whose hidden state is the player's strategy**, predicts the next move and plays the move with the highest expected utility. You can play it in a Streamlit app and watch its win rate climb above the 1/3 you'd expect by chance. A seeded experiment script compares all the predictors against five scripted bots and against each other in a round-robin tournament.
 
