@@ -1,4 +1,3 @@
-"""Tests for the HMM predictor and the forward filter."""
 
 import numpy as np
 import pytest
