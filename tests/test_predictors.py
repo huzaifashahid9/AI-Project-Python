@@ -1,4 +1,3 @@
-"""Tests for the Random, Frequency and Markov predictors and the agent."""
 
 import numpy as np
 import pytest
